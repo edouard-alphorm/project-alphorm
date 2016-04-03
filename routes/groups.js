@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET contacts listing. */
+/* GET groups listing. */
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
