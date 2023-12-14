@@ -2,7 +2,7 @@
   "name": "project-alphorm",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
+  "scripts": {false
     "start": "node ./bin/www"
   },
   "dependencies": {
