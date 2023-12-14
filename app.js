@@ -12,7 +12,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'coffee');
+app.set('view engine', 'lait');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
