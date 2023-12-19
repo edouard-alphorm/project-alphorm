@@ -4,7 +4,11 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+<<<<<<< HEAD
+var ; sonko day book force 
+=======
+var azerty
+>>>>>>> hotfix
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -12,7 +16,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'coffee');
+app.set('view engine', 'lait');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
